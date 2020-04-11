@@ -85,7 +85,7 @@ $relatedArtistAlbum = relatedArtistTopAlbum($artistId);
                         <el-card :body-style="{ padding: '0px' }">
 
                             <div class="songsSearch__card" v-if="index === 0">
-                                <img src="img/introduction1.jpg" class="songsSearch__cardImage">
+                                <img src="img/introduction1_compression.jpg" class="songsSearch__cardImage">
                                 <div style="padding: 14px;">
                                     <span class="songsSearch__cardTitle">「好き」を増やそう</span>
                                     <div class="songsSearch__cardBottom songsSearch__cardClearfix">
@@ -95,7 +95,7 @@ $relatedArtistAlbum = relatedArtistTopAlbum($artistId);
                             </div>
 
                             <div class="songsSearch__card" v-if="index === 1">
-                                <img src="img/introduction2.jpg" class="songsSearch__cardImage">
+                                <img src="img/introduction2_compression.jpg" class="songsSearch__cardImage">
                                 <div style="padding: 14px;">
                                     <span class="songsSearch__cardTitle">アーティスト名を入力するだけ。</span>
                                     <div class="songsSearch__cardBottom songsSearch__cardClearfix">
@@ -105,7 +105,7 @@ $relatedArtistAlbum = relatedArtistTopAlbum($artistId);
                             </div>
 
                             <div class="songsSearch__card" v-if="index === 2">
-                                <img src="img/introduction3.jpg" class="songsSearch__cardImage">
+                                <img src="img/introduction3_compression.jpg" class="songsSearch__cardImage">
                                 <div style="padding: 14px;">
                                     <span class="songsSearch__cardTitle">「好き」を見つけよう。</span>
                                     <div class="songsSearch__cardBottom songsSearch__cardClearfix">
