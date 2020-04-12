@@ -1,4 +1,4 @@
-# spotify-api-search-artist
+# spotify-api-search-for-artist
 
 ## アプリケーション概要・機能
 Spotify Web APIを利用して、適当なアーティストを入力するとその関連アーティストが表示されます。
