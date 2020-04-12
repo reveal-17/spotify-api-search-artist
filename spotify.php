@@ -2,9 +2,10 @@
 
 require_once('vendor/autoload.php');
 $CLIENT_ID = getenv('CLIENT_ID');
+$CLIENT_SECRET = getenv('CLIENT_SECRET');
 $session = new SpotifyWebAPI\Session(
     "{$CLIENT_ID}",
-    '1e08120c75754a8f8de076cf79de318b'
+    "{$CLIENT_SECRET}"
 );
 $api = new SpotifyWebAPI\SpotifyWebAPI();
 $session->requestCredentialsToken();
